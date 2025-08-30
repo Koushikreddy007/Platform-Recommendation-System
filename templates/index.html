@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Platform Recommendation</title>
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+      background: linear-gradient(135deg, #6b9080, #a4c3b2, #cce3de);
+      height: 100vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+
+    .container {
+      background: #ffffff;
+      padding: 30px 40px;
+      border-radius: 15px;
+      box-shadow: 0 10px 30px rgba(0, 0, 0, 0.15);
+      width: 100%;
+      max-width: 420px;
+    }
+
+    h2 {
+      text-align: center;
+      color: #4a4a4a;
+      margin-bottom: 25px;
+    }
+
+    label {
+      font-weight: bold;
+      display: block;
+      margin-bottom: 6px;
+      color: #555;
+    }
+
+    input, select {
+      width: 100%;
+      padding: 10px;
+      margin-bottom: 18px;
+      border: 1px solid #ccc;
+      border-radius: 8px;
+      font-size: 15px;
+      background: #f8f8f8;
+    }
+
+    button {
+      width: 100%;
+      padding: 12px;
+      background: linear-gradient(to right, #6b9080, #a4c3b2);
+      color: white;
+      font-weight: bold;
+      border: none;
+      border-radius: 8px;
+      font-size: 16px;
+      cursor: pointer;
+      transition: background 0.3s ease;
+    }
+
+    button:hover {
+      background: linear-gradient(to right, #588157, #8db58e);
+    }
+
+    #result {
+      margin-top: 20px;
+      text-align: center;
+      font-size: 16px;
+      font-weight: bold;
+      color: #2d6a4f;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h2>Find Your Best Platform</h2>
+    <form id="form">
+      <label for="age">Age:</label>
+      <input type="number" name="age" required />
+
+      <label for="occupation">Occupation:</label>
+      <select name="occupation" required>
+        <option value="">-- Select Occupation --</option>
+        <option value="Student">Student</option>
+        <option value="Professional">Professional</option>
+        <option value="Business">Business</option>
+        <option value="Teacher">Teacher</option>
+        <option value="Freelancer">Freelancer</option>
+        <option value="Homemaker">Homemaker</option>
+        <option value="Retired">Retired</option>
+        <option value="Other">Other</option>
+      </select>
+
+      <label for="usage_per_day">Usage per Day (hrs):</label>
+      <input type="number" step="0.1" name="usage_per_day" required />
+
+      <label for="purpose">Primary Purpose:</label>
+      <select name="purpose" required>
+        <option value="">-- Select Purpose --</option>
+        <option value="Entertainment">Entertainment</option>
+        <option value="Communication">Communication</option>
+        <option value="Networking">Networking</option>
+        <option value="Learning">Learning</option>
+        <option value="News/Updates">News/Updates</option>
+        <option value="Marketing/Promotion">Marketing/Promotion</option>
+        <option value="Time Pass">Time Pass</option>
+        <option value="Other">Other</option>
+      </select>
+
+      <button type="submit">Get Recommendation</button>
+    </form>
+    <p id="result"></p>
+  </div>
+
+  <script>
+    document.getElementById("form").addEventListener("submit", async function (e) {
+      e.preventDefault();
+      const data = {
+        age: parseInt(this.age.value),
+        occupation: this.occupation.value,
+        usage_per_day: parseFloat(this.usage_per_day.value),
+        purpose: this.purpose.value
+      };
+
+      const response = await fetch("/recommend", {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify(data)
+      });
+
+      const result = await response.json();
+      document.getElementById("result").textContent =
+        result.recommended_platform
+          ? "Recommended Platform: " + result.recommended_platform
+          : "Error: " + (result.error || "Unknown error");
+    });
+  </script>
+</body>
+</html>

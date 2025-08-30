@@ -1,0 +1,301 @@
+user_id,age,occupation,learning_platform_used,hours_per_week,courses_completed,satisfaction_score
+1,21,Student,Khan Academy,9,4,10
+2,34,Software Engineer,Udemy,8,3,9
+3,45,Teacher,Coursera,3,1,7
+4,28,Marketing Manager,LinkedIn Learning,6,2,9
+5,55,Doctor,Coursera,2,1,6
+6,19,Student,Coursera,10,5,10
+7,40,Architect,edX,4,2,8
+8,31,Data Analyst,DataCamp,7,3,9
+9,50,Librarian,Coursera,3,1,7
+10,25,Graphic Designer,Skillshare,5,2,9
+11,38,Project Manager,LinkedIn Learning,4,1,7
+12,21,Student,Udemy,9,4,10
+13,42,Accountant,Coursera,3,1,6
+14,30,Software Engineer,Coursera,8,3,9
+15,60,Retired,Khan Academy,2,1,8
+16,24,Journalist,Skillshare,6,2,8
+17,33,Nurse,Udemy,4,1,7
+18,52,Business Owner,LinkedIn Learning,3,2,9
+19,20,Student,edX,7,3,9
+20,29,Social Worker,Coursera,5,2,8
+21,47,Engineer,Udemy,5,2,8
+22,23,Student,Skillshare,10,5,10
+23,36,HR Specialist,LinkedIn Learning,4,1,7
+24,58,Writer,MasterClass,2,1,6
+25,27,Chef,MasterClass,6,3,9
+26,41,Financial Advisor,Coursera,3,1,7
+27,34,UX Designer,Udemy,8,4,10
+28,51,Scientist,edX,5,2,8
+29,26,Student,freeCodeCamp,9,4,10
+30,39,Electrician,Udemy,4,1,7
+31,44,Professor,Coursera,6,2,9
+32,22,Student,Udemy,7,3,9
+33,37,Photographer,Skillshare,5,2,8
+34,54,Lawyer,Coursera,3,1,6
+35,29,Student,Khan Academy,8,4,10
+36,46,Manager,LinkedIn Learning,4,1,7
+37,32,Web Developer,Pluralsight,7,3,9
+38,56,Homemaker,Khan Academy,2,1,8
+39,28,Architect,edX,6,2,9
+40,31,Student,Udemy,9,4,10
+41,43,Teacher,Khan Academy,3,1,8
+42,26,Data Scientist,Coursera,8,4,10
+43,30,Marketing Manager,HubSpot Academy,5,2,9
+44,50,Business Analyst,LinkedIn Learning,4,1,8
+45,20,Student,Codecademy,10,5,10
+46,35,Software Engineer,Pluralsight,7,3,10
+47,48,Nurse,Coursera,3,1,7
+48,22,Student,edX,9,4,9
+49,36,UX Designer,Udemy,6,3,9
+50,57,Architect,Coursera,2,1,6
+51,25,Journalist,LinkedIn Learning,5,2,8
+52,39,Data Analyst,Coursera,7,3,9
+53,49,Lawyer,edX,4,2,8
+54,23,Student,Skillshare,8,4,10
+55,32,Financial Advisor,Udemy,5,2,8
+56,41,Teacher,Khan Academy,3,1,8
+57,53,Business Owner,Udemy,4,1,7
+58,28,Graphic Designer,Skillshare,6,3,10
+59,37,HR Specialist,Coursera,5,2,8
+60,20,Student,edX,9,5,10
+61,45,Engineer,LinkedIn Learning,4,2,8
+62,30,Software Engineer,freeCodeCamp,8,4,10
+63,24,Journalist,MasterClass,5,2,9
+64,50,Librarian,Khan Academy,3,1,8
+65,33,Photographer,Skillshare,6,3,10
+66,27,Student,Coursera,10,5,10
+67,40,Architect,Udemy,4,2,8
+68,35,Data Scientist,DataCamp,7,3,9
+69,55,Retired,LinkedIn Learning,2,1,7
+70,29,Marketing Manager,Coursera,6,2,8
+71,48,Professor,edX,5,2,9
+72,21,Student,Udemy,9,4,10
+73,38,Accountant,Coursera,3,1,6
+74,51,Writer,Skillshare,4,2,9
+75,26,UX Designer,Udemy,8,4,10
+76,42,Manager,Coursera,4,1,7
+77,31,Software Engineer,Udemy,7,3,9
+78,59,Homemaker,Khan Academy,2,1,8
+79,25,Chef,MasterClass,6,3,10
+80,36,Electrician,Udemy,4,1,7
+81,44,Nurse,Coursera,5,2,8
+82,23,Student,Khan Academy,9,4,10
+83,37,Financial Advisor,LinkedIn Learning,3,1,7
+84,49,Scientist,Coursera,5,2,8
+85,28,Journalist,Coursera,6,2,9
+86,30,Teacher,edX,3,1,8
+87,52,Business Analyst,Udemy,4,1,7
+88,20,Student,Coursera,10,5,10
+89,45,Engineer,edX,5,2,9
+90,34,Software Engineer,Udemy,8,4,10
+91,48,Doctor,Coursera,2,1,6
+92,22,Student,Skillshare,9,5,10
+93,39,Marketing Manager,HubSpot Academy,6,2,9
+94,56,Lawyer,LinkedIn Learning,3,1,7
+95,27,Graphic Designer,Skillshare,5,3,10
+96,41,HR Specialist,Coursera,4,2,8
+97,35,Data Analyst,DataCamp,7,3,9
+98,51,Writer,Coursera,2,1,6
+99,24,Student,Khan Academy,8,4,10
+100,32,Project Manager,LinkedIn Learning,5,2,8
+101,47,Teacher,Coursera,3,1,7
+102,26,Software Engineer,Pluralsight,8,4,10
+103,50,Architect,Udemy,4,1,7
+104,33,Nurse,Coursera,3,1,6
+105,29,Student,edX,9,5,10
+106,40,Manager,LinkedIn Learning,5,2,9
+107,36,UX Designer,Udemy,8,4,10
+108,55,Retired,Coursera,2,1,7
+109,28,Journalist,Skillshare,6,3,9
+110,43,Professor,edX,5,2,8
+111,31,Data Analyst,Coursera,7,3,9
+112,58,Homemaker,Khan Academy,2,1,8
+113,25,Chef,MasterClass,6,3,10
+114,39,Electrician,Udemy,4,1,7
+115,44,Financial Advisor,LinkedIn Learning,3,1,7
+116,22,Student,Udemy,9,5,10
+117,37,Photographer,Skillshare,5,2,8
+118,49,Lawyer,Coursera,3,1,6
+119,20,Student,Khan Academy,8,4,10
+120,46,Manager,Coursera,4,1,7
+121,30,Software Engineer,Udemy,7,3,9
+122,51,Writer,Skillshare,4,2,9
+123,26,Student,edX,10,5,10
+124,42,Business Owner,LinkedIn Learning,3,2,9
+125,35,Marketing Manager,Coursera,6,2,8
+126,50,Librarian,Khan Academy,3,1,8
+127,24,Student,Coursera,9,4,10
+128,47,Engineer,Udemy,5,2,8
+129,38,HR Specialist,LinkedIn Learning,4,1,7
+130,53,Scientist,edX,5,2,9
+131,29,Student,Udemy,8,4,10
+132,41,Teacher,Khan Academy,3,1,8
+133,52,Business Analyst,Coursera,4,1,7
+134,36,Software Engineer,Pluralsight,7,3,10
+135,21,Student,Codecademy,10,5,10
+136,44,Doctor,Coursera,2,1,6
+137,31,Data Analyst,DataCamp,7,3,9
+138,54,Lawyer,Coursera,3,1,7
+139,27,Graphic Designer,Skillshare,6,3,10
+140,48,Architect,edX,4,2,8
+141,33,Nurse,Udemy,4,1,7
+142,56,Homemaker,Khan Academy,2,1,8
+143,25,Student,Udemy,9,4,10
+144,40,Project Manager,Coursera,5,2,8
+145,59,Retired,LinkedIn Learning,2,1,7
+146,30,Software Engineer,freeCodeCamp,8,4,10
+147,45,Professor,Coursera,6,2,9
+148,22,Student,Khan Academy,10,5,10
+149,37,Photographer,Skillshare,5,2,8
+150,51,Writer,MasterClass,2,1,6
+151,21,Student,Udemy,9,4,10
+152,34,Software Engineer,Coursera,8,3,9
+153,45,Teacher,Khan Academy,3,1,8
+154,28,Marketing Manager,LinkedIn Learning,6,2,9
+155,55,Doctor,Udemy,2,1,6
+156,19,Student,freeCodeCamp,10,5,10
+157,40,Architect,edX,4,2,8
+158,31,Data Analyst,DataCamp,7,3,9
+159,50,Librarian,Khan Academy,3,1,8
+160,25,Graphic Designer,Skillshare,5,2,9
+161,38,Project Manager,Coursera,4,1,7
+162,21,Student,Udemy,9,4,10
+163,42,Accountant,Coursera,3,1,6
+164,30,Software Engineer,Pluralsight,8,3,9
+165,60,Retired,Coursera,2,1,7
+166,24,Journalist,LinkedIn Learning,6,2,8
+167,33,Nurse,Coursera,4,1,7
+168,52,Business Owner,Udemy,3,2,9
+169,20,Student,Khan Academy,7,3,9
+170,29,Social Worker,LinkedIn Learning,5,2,8
+171,47,Engineer,edX,5,2,8
+172,23,Student,Codecademy,10,5,10
+173,36,HR Specialist,Coursera,4,1,7
+174,58,Writer,Skillshare,2,1,6
+175,27,Chef,Udemy,6,3,9
+176,41,Financial Advisor,LinkedIn Learning,3,1,7
+177,34,UX Designer,Coursera,8,4,10
+178,51,Scientist,Udemy,5,2,8
+179,26,Student,Khan Academy,9,4,10
+180,39,Electrician,Coursera,4,1,7
+181,44,Professor,LinkedIn Learning,6,2,9
+182,22,Student,edX,7,3,9
+183,37,Photographer,Udemy,5,2,8
+184,54,Lawyer,edX,3,1,6
+185,29,Student,freeCodeCamp,8,4,10
+186,46,Manager,Coursera,4,1,7
+187,32,Web Developer,Udemy,7,3,9
+188,56,Homemaker,LinkedIn Learning,2,1,8
+189,28,Architect,Coursera,6,2,9
+190,31,Student,Khan Academy,9,4,10
+191,43,Teacher,Coursera,3,1,8
+192,26,Data Scientist,DataCamp,8,4,10
+193,30,Marketing Manager,LinkedIn Learning,5,2,9
+194,50,Business Analyst,Coursera,4,1,8
+195,20,Student,Udemy,10,5,10
+196,35,Software Engineer,freeCodeCamp,7,3,10
+197,48,Nurse,Khan Academy,3,1,7
+198,22,Student,Skillshare,9,4,9
+199,36,UX Designer,LinkedIn Learning,6,3,9
+200,57,Architect,Udemy,2,1,6
+201,25,Journalist,Coursera,5,2,8
+202,39,Data Analyst,Udemy,7,3,9
+203,49,Lawyer,Coursera,4,2,8
+204,23,Student,MasterClass,8,4,10
+205,32,Financial Advisor,LinkedIn Learning,5,2,8
+206,41,Teacher,Coursera,3,1,8
+207,53,Business Owner,Khan Academy,4,1,7
+208,28,Graphic Designer,Udemy,6,3,10
+209,37,HR Specialist,LinkedIn Learning,5,2,8
+210,20,Student,Coursera,9,5,10
+211,45,Engineer,Udemy,4,2,8
+212,30,Software Engineer,Pluralsight,8,4,10
+213,24,Journalist,Coursera,5,2,9
+214,50,Librarian,LinkedIn Learning,3,1,8
+215,33,Photographer,Udemy,6,3,10
+216,27,Student,Khan Academy,10,5,10
+217,40,Architect,Coursera,4,2,8
+218,35,Data Scientist,DataCamp,7,3,9
+219,55,Retired,Udemy,2,1,7
+220,29,Marketing Manager,LinkedIn Learning,6,2,8
+221,48,Professor,Coursera,5,2,9
+222,21,Student,Khan Academy,9,4,10
+223,38,Accountant,LinkedIn Learning,3,1,6
+224,51,Writer,Udemy,4,2,9
+225,26,UX Designer,Coursera,8,4,10
+226,42,Manager,LinkedIn Learning,4,1,7
+227,31,Software Engineer,Pluralsight,7,3,9
+228,59,Homemaker,Coursera,2,1,8
+229,25,Chef,Udemy,6,3,10
+230,36,Electrician,LinkedIn Learning,4,1,7
+231,44,Nurse,Udemy,5,2,8
+232,23,Student,Coursera,9,4,10
+233,37,Financial Advisor,Coursera,3,1,7
+234,49,Scientist,Udemy,5,2,8
+235,28,Journalist,LinkedIn Learning,6,2,9
+236,30,Teacher,Coursera,3,1,8
+237,52,Business Analyst,Udemy,4,1,7
+238,20,Student,Khan Academy,10,5,10
+239,45,Engineer,LinkedIn Learning,5,2,9
+240,34,Software Engineer,Coursera,8,4,10
+241,48,Doctor,Udemy,2,1,6
+242,22,Student,Coursera,9,5,10
+243,39,Marketing Manager,LinkedIn Learning,6,2,9
+244,56,Lawyer,Coursera,3,1,7
+245,27,Graphic Designer,Udemy,5,3,10
+246,41,HR Specialist,LinkedIn Learning,4,2,8
+247,35,Data Analyst,Coursera,7,3,9
+248,51,Writer,Udemy,2,1,6
+249,24,Student,Coursera,8,4,10
+250,32,Project Manager,LinkedIn Learning,5,2,8
+251,47,Teacher,Khan Academy,3,1,7
+252,26,Software Engineer,Pluralsight,8,4,10
+253,50,Architect,Coursera,4,1,7
+254,33,Nurse,LinkedIn Learning,3,1,6
+255,29,Student,Udemy,9,5,10
+256,40,Manager,Coursera,5,2,9
+257,36,UX Designer,LinkedIn Learning,8,4,10
+258,55,Retired,Udemy,2,1,7
+259,28,Journalist,Coursera,6,3,9
+260,43,Professor,Khan Academy,5,2,8
+261,31,Data Analyst,Udemy,7,3,9
+262,58,Homemaker,LinkedIn Learning,2,1,8
+263,25,Chef,Coursera,6,3,10
+264,39,Electrician,LinkedIn Learning,4,1,7
+265,44,Financial Advisor,Coursera,3,1,7
+266,22,Student,Udemy,9,5,10
+267,37,Photographer,Coursera,5,2,8
+268,49,Lawyer,LinkedIn Learning,3,1,6
+269,20,Student,Udemy,8,4,10
+270,46,Manager,Coursera,4,1,7
+271,30,Software Engineer,freeCodeCamp,7,3,9
+272,51,Writer,LinkedIn Learning,4,2,9
+273,26,Student,Coursera,10,5,10
+274,42,Business Owner,Udemy,3,2,9
+275,35,Marketing Manager,LinkedIn Learning,6,2,8
+276,50,Librarian,Coursera,3,1,8
+277,24,Student,Udemy,9,4,10
+278,47,Engineer,LinkedIn Learning,5,2,8
+279,38,HR Specialist,Coursera,4,1,7
+280,53,Scientist,Udemy,5,2,9
+281,29,Student,LinkedIn Learning,8,4,10
+282,41,Teacher,Coursera,3,1,8
+283,52,Business Analyst,LinkedIn Learning,4,1,7
+284,36,Software Engineer,Udemy,7,3,10
+285,21,Student,Khan Academy,10,5,10
+286,44,Doctor,LinkedIn Learning,2,1,6
+287,31,Data Analyst,Coursera,7,3,9
+288,54,Lawyer,Udemy,3,1,7
+289,27,Graphic Designer,LinkedIn Learning,6,3,10
+290,48,Architect,Coursera,4,2,8
+291,33,Nurse,LinkedIn Learning,4,1,7
+292,56,Homemaker,Udemy,2,1,8
+293,25,Student,Coursera,9,4,10
+294,40,Project Manager,LinkedIn Learning,5,2,8
+295,59,Retired,Udemy,2,1,7
+296,30,Software Engineer,Coursera,8,4,10
+297,45,Professor,LinkedIn Learning,6,2,9
+298,22,Student,Udemy,10,5,10
+299,37,Photographer,Coursera,5,2,8
+300,51,Writer,LinkedIn Learning,2,1,6
